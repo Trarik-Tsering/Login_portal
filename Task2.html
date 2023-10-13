@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change_Color</title>
+    <link rel="stylesheet" href="task2.css" type="text/css">
+</head>
+<body class="container-fluid">
+    <idv class="change">
+        <div class="inner_img"></div>
+        <br>
+        <input type="text" name="" id="val" onchange="demo()">
+    </idv>
+
+    <script>
+        function demo(){
+            var user=document.getElementById("val").value;
+            document.getElementById("cir").style.backgroundColor=user;
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Compatible" Content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">    
+    <title>Addition</title>
+</head>
+<body class="container-fluid">
+    <h3>This is the Addition of two number...</h3>
+    <div>
+        <div>
+        <form action="">
+            <input type="text" class="form-control">
+            <br><br>
+            <input type="text" class="form-control"></input>
+            <br><br>
+
+            <input type="submit" class="btn btn-primary"></input>
+            <p id="ans"></p>
+        </form>
+        </div>
+    </div>
+    
+    </script>
+</body>
+<script>
+    function Add(){
+        var a=parseInt(document.getElementById("num1").value);
+        var b=parseInt(document.getElementById("num2").value);
+        document.getElementById("ans").innerHTML=a+b;
+    }
+</script>
+</html>
